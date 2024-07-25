@@ -1,4 +1,4 @@
-# Week 1 Pre-Lecture Video Notes
+# Week 1 Notes
 ## Sets
 ### What is a set?
 - A set is a collection of elements
@@ -20,7 +20,8 @@
 $A\times B=\{(a,b)|a\in A, b\in B\}$\
 $|A\times B|=|A|\times|B|$
 #### Power Set
-The power set of $A$ is the set of all subsets of $A$.
+The power set of $A$ is the set of all subsets of $A$.\
+$|P(A)|=2^{|A|}$
 ## Functions
 A function $f:S\to T$ is a rule that assigns to every element of $S$ an element of $T$.\
 The rule must be
@@ -42,6 +43,12 @@ if $f:S\to T$ is surjective, $|S|\ge|T|$
 #### Bijectivity
 $f: S\to T$ is bijective if it is both injective and surjective\
 if $f:S\to T$ is bijective, $|S|=|T|$
+
+### Number of functions
+the number of functions $f:A\to B=|B|^{|A|}$\
+if $|A|\le|B|$ there are $^{|B|}P_{|A|}$ injective funtions $f:A\to B$
+### The inverse function
+if $f:S\to T$ is a bijection, $f^{-1}:T\to S|t=f(s)\implies s=f^{-1}(y)$
 ## Relations
 A relation on $S$ and $T$ is a subset $R\subset S\times T$\
 if $(s,t\in R)$, then we think of $s$ as related to $t$ according to $R$.
