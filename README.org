@@ -1,1 +1,18 @@
-These are the materials for MATH2301 Games, Graphs, and Machines at the Australian National University as taught in 2024.
+* MATH2301: Games, Graphs, and Machines (2024)
+
+This repository contains my personal notes and course materials for *MATH2301: Games, Graphs, and Machines* at the *Australian National University*, as taught in 2024.
+
+* Contents
+
+  - *Lecture Notes*: Summaries and explanations of the key concepts covered in the course.
+  - *Assignments*: My solutions to the assignments.
+  - *Quizzes*: Solutions to the friday lecture quizzes.
+  - *Book/Lecture Slides*: The official course materials which can be found at: [[https://github.com/deopurkar/ggm2024][deopurkar/ggm2024]].
+
+* Usage
+
+  This repository is intended for my personal study and reference only. Please respect academic integrity and do not copy my assignment answers or any other content from this repository for submission or plagiarism.
+
+** Academic Integrity
+
+  Maintaining academic integrity is crucial. Copying my assignment answers or any other form of academic dishonesty is a violation of the ANU's academic integrity policy and can lead to serious consequences.
