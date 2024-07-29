@@ -31,12 +31,13 @@ $\therefore R\cup T$ is transitive so the statement is true.
 ## (3) 
 Consider the following graphs, for each one write down which of the following properties are satisfied by the graph: reflexivity, symmetry, transivity, being the I/O of a function.
 ### (a)
-![alt text](<assignment 1/image.png>)
+![alt text](<assignment 1/image.png>)\
 This graph is reflexive.
 ### (b)
-![alt text](<assignment 1/image-1.png>)This graph is symmetric and transitive.
+![alt text](<assignment 1/image-1.png>)\
+This graph is symmetric and transitive.
 ### (c)
-![alt text](<assignment 1/image-2.png>)
+![alt text](<assignment 1/image-2.png>)\
 This graph is the I/O of a function.
 ## (4)
 Let $S=\mathbb{R}\times\mathbb{R}$. Define a relation $R$ on $S$ as follows:\
@@ -49,7 +50,11 @@ $\forall ((a,b),(c,d),(e,f))\in S, a+b=c+d, c+d=e+f\implies a+b=e+f$ so $R$ is t
 Since $R$ is reflexive, symmetric and transitive, $R$ is an equivalence relation.
 ### (b) Describe the equivalence classes in words and draw sketches in $\mathbb{R}^2$ of the equivalance class of $(1,2)$ and of $(0,0)$.
 $[x]_R=\{(a,b)\in\mathbb{R}^2\}|a+b=x$\
+<div style="page-break-after: always;"></div>
+
 for $(1,2)$
-![alt text](<assignment 1/desmos-graph.png>)
+![alt text](<assignment 1/desmos-graph.png>)\
+<div style="page-break-after: always;"></div>
+
 for $(0,0)$
 ![alt text](<assignment 1/desmos-graph(1).png>)
