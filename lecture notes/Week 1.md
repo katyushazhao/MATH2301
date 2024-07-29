@@ -43,7 +43,6 @@ if $f:S\to T$ is surjective, $|S|\ge|T|$
 #### Bijectivity
 $f: S\to T$ is bijective if it is both injective and surjective\
 if $f:S\to T$ is bijective, $|S|=|T|$
-
 ### Number of functions
 the number of functions $f:A\to B=|B|^{|A|}$\
 if $|A|\le|B|$ there are $^{|B|}P_{|A|}$ injective funtions $f:A\to B$
@@ -52,7 +51,15 @@ if $f:S\to T$ is a bijection, $f^{-1}:T\to S|t=f(s)\implies s=f^{-1}(y)$
 ## Relations
 A relation on $S$ and $T$ is a subset $R\subset S\times T$\
 if $(s,t\in R)$, then we think of $s$ as related to $t$ according to $R$.
+
+$\{Relations\}=P(A\times B)$
 ###  The input/output relation of a function
 An $f:S\to T$ gives a relation $R\subset S\times T$ given by $R=\{(s,t)|t=f(s)\}$\
 This has an important property:\
 $\forall s\in S, \exists!t\in T|(s,t)\in R$
+### Reflexive Relations
+$R\subset S\times S$ is reflexive if $\forall s\in S, (s,s)\in R$
+### Symmetric Relations
+$R\subset S\times S$ is symmetric if $\forall s,t\in S, (s,t)\in R\implies(t,s)\in R$
+### Transitive Relations
+$R\subset S\times S$ is transitive if $\forall a,b,c\in S, (a,b)\in R, (b,c)\in R \implies (a,c)\in R$
