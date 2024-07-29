@@ -1,8 +1,15 @@
+<script type="text/javascript" 
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
+</script>
+
 # MATH2301 Assignment 1
 ## (1)
 Let $S=\mathbb{R}-\{0\}$ \
 Define $R\subset S\times S$ as $\{(x,y)|xy=3\}$ and $R$ is the I/O relation of $f$. \
-Find $f(1)$ and $f(2)$. Justify your answers. \
+Find $f(1)$ and $f(2)$. Justify your answers. 
 
 $R$ is the I/O relation of $f(x)=\frac{3}{x}$, this is true because\
 $\forall x\in S,\exists y\in S|y=\frac{3}{x}$\
