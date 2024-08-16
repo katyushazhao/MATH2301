@@ -3,3 +3,11 @@
 *.bbl
 *.gz
 /book/svg-inkscape/
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.fls
+*.fdb_latexmk
