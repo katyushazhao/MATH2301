@@ -28,7 +28,7 @@ since $T\subset R\cup T, (a,b)\in T\implies(b,a)\in R\cup T$\
 $\therefore(a,b)\in R\cup T\implies (b,a)\in R\cup T$\
 $\therefore$ the statement is true.
 ### (b) If $R$ and $T$ are transitive then $R \cup T$ is transitive
-Take the example where $R$ is the relation $<$ and $T$ is the relation $>$.\
+Take the example where $R$ is the relation $<$ and $T$ is the relation $>$ on $S=\mathbb{Z}$.\
 $R$ is transitive as $\forall a,b,c\in S, a<b,b<c\implies a<c$.\
 $T$ is transitive as $\forall a,b,c\in S, a>b,b>c\implies a>c$. \
 Take the case where $a,b,c\in S, a=c>c$, in this case $a>b,b<c\in R\cup T$ however $(a,c)\notin R\cup T$.\
@@ -43,7 +43,8 @@ Consider the following graphs, for each one write down which of the following pr
 This graph is reflexive and transitive.
 ### (b)
 ![alt text](<assignment 1/image-1.png>)\
-This graph is symmetric and transitive.
+This graph is symmetric.
+It is not transitive as $(a,c),(c,a)\in R, (a,a)\notin R$
 ### (c)
 ![alt text](<assignment 1/image-2.png>)\
 This graph is the I/O of a function.
@@ -54,7 +55,7 @@ Let $S=\mathbb{R}\times\mathbb{R}$. Define a relation $R$ on $S$ as follows:\
 $R=\{(a,b),(c,d)|a+b=c+d\}$.
 ### (a) prove $R$ is an equivalence relation
 $\forall(a,b)\in S, a+b=a+b$ so $R$ is reflexive.\
-$\forall(a,b)\in S, a+b=c+d\implies c+d=a+b$ so $R$ is symmetric.\
+$\forall(a,b),(c,d)\in S, a+b=c+d\implies c+d=a+b$ so $R$ is symmetric.\
 $\forall ((a,b),(c,d),(e,f))\in S, a+b=c+d, c+d=e+f\implies a+b=e+f$ so $R$ is transitive.
 
 Since $R$ is reflexive, symmetric and transitive, $R$ is an equivalence relation.
