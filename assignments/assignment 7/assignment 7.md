@@ -5,13 +5,15 @@ $r=1(1|0)^*$
 ## (b) $L=\{w\in\Sigma^*|w\text{ any ones in }w\text{ are next to eachother in a single block}\}$
 $r=(0)^*(1)^*(0)^*$
 ## (c) $L=\{w\in\Sigma^*|w\text{ contains an even number of zeroes}\}$
-$r=((00)|1)^*$
+$r=((01^*0)|1)^*$
 # (2) 
 Let $\Sigma=\{a,b,c\}$. For each regular expression $r$ written below, describe in words the language $L(r)$. Justification not required.
 ## (a) $r=(\epsilon|bc|c)(abc)^*(\epsilon|a|ab)$
 $L=\{w\in\Sigma^*|\text{ every letter in  }w\text{ is always followed by the next letter in the order of }\Sigma\}$
 ## (b) $r=((b|c|\epsilon)^*a(b|c|\epsilon)^*a(b|c|\epsilon)^*)^*$
 $L=\{w\in\Sigma^*|\text{ every non-} a\text{ letter in  }w\text{ is always followed by }a\text{ unless it is the final letter}\}$
+<div style="page-break-after: always;"></div>
+
 # (3)
 Let $\Sigma=\{0,1\}$ and $L$ be the language
 $$
@@ -21,6 +23,8 @@ For example, the word $010$ is in $L$ because it has one occurences of $01$ and 
 
 ---
 $r=(10(0^*)1|01(1^*)0)^*$
+<div style="page-break-after: always;"></div>
+
 # (4) 
 Let $L\subseteq\Sigma^*$ be a language. The compliment of $L$, denoted $L^c$, is the compliment of $L$ in $\Sigma^*$. That is, for every $w\in\Sigma^*$, we have $w\in L^{c}$ if and only if $w\notin L$
 ## (a) 
@@ -38,6 +42,8 @@ then $M'$ must have:
 - start state $q_0$
 - accept states $Q\setminus A$ and,
 - transition function $\delta$
+<div style="page-break-after: always;"></div>
+
 ## (b) 
 Construct a DFA recognising the following language:
 $$
@@ -47,11 +53,22 @@ Justification not required.
 
 ---
 Let DFA $M$ recognise $L=L(M)$, $M$ has:
-- states $Q=\{q_0,q_1,q_2\}$
+- states $Q=\{q_0,q_1,q_2,q_3\}$
 - start state $q_0\in Q$
-- accept states $A=\{q_0,q_1\}$ and, 
+- accept states $A=\{q_0,q_1,q_2\}$ and, 
 - transition function $\delta:$
-  |Input State|Letter|Output State|
-  |---|---|---|
-  |$q_0$|$1$|$q_1$|
-  |$q_0$|$a\in\Sigma,a\neq 1$|$q_2$
+    |Input State|Letter|Output State|
+    |---|---|---|
+    |$q_0$|$1$|$q_1$|
+    |$q_0$|$a\in\Sigma,a\neq 1$|$q_3$|
+    |$q_1$|$a\in\Sigma$|$q_2$|
+    |$q_2$|$1$|$q_1$|
+    |$q_2$|$a\in\Sigma,a\neq 1$|$q_3$|
+    |$q_3$|$a\in\Sigma$|$q_3$|
+<div style="page-break-after: always;"></div>
+
+## (c)
+Now use your method from the first part to draw a DFA for the complement of the language L above. Justification not required.
+
+---
+![alt text](image-1.png)
